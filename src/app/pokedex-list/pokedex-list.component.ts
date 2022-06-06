@@ -5,11 +5,5 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './pokedex-list.component.html',
   styleUrls: ['./pokedex-list.component.scss']
 })
-export class PokedexListComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class PokedexListComponent{
 }
