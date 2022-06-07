@@ -1,6 +1,11 @@
-<h1>POKEDEX</h1>
-<div>
-  <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png">
-  <br>
-  Bulbasaur
+<img
+   src="https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png"
+   width="350"
+>
+<div class="pokemon-list">
+  <app-pokemon-card
+    *ngFor="let pokemon of pokemons; index as i"
+    [pokemon]='pokemon'
+    [id] = 'i + 1'
+    ></app-pokemon-card>
 </div>
